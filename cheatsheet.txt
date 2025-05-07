@@ -1,0 +1,18 @@
+
+Copy paste into C/C++ Build variables
+BootloaderDataFile     ${workspace_loc:RA0E1_boot}/Debug/RA0E1_boot.bld
+
+Copy paste into C/C++ Environment
+MCUBOOT_IMAGE_VERSION 1.0.0 
+
+
+Setting up Python
+Open CMD prompt in folder $workspace_loc/RA0E1_boot/RA/mcu-tools/MCUboot
+
+copy paste the following:
+python -m pip install --upgrade pip
+
+copy paste the following:
+pip3 install --user -r scripts/requirements.txt
+
+
