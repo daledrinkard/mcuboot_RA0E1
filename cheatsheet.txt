@@ -16,3 +16,8 @@ copy paste the following:
 pip3 install --user -r scripts/requirements.txt
 
 
+../../RA0E1_boot/ra_cfg/mcu-tools/include/mcuboot_config/mcuboot_config.h
+../../RA0E1_boot/ra_cfg/mcu-tools/include/mcuboot_config/mcuboot_logging.h
+../../RA0E1_boot/ra_cfg/mcu-tools/include/sysflash/sysflash.h
+
+    boot_set_confirmed_multi(0);
